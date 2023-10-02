@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+/*quote css*/
+.quote-full{
+    display: flex;
+    background-color: #F5F5F5;
+   
+   
+}
+.quote-img img{
+   width: 740px;
+   height: 640px;
+   object-fit: cover;
+
+}
+.quote-right{
+    margin-left: 50px;
+    padding: 100px 0 100px 0;
+}
+.quote-text{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #353535;
+}
+.quote-content{
+    width: 500px;
+}
+.quote-content p{
+   margin-bottom: 20px;
+   line-height: 1.5;
+   font-size: 1rem;
+   color: #555;
+   font-weight: 400;
+}
+.design{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    padding: 0 10px;
+    border: none;
+    transition: 0.9s linear;
+    height: 65px;
+    width: 265px;
+    margin: 10px;
+}
+.design:focus{
+    border: 1px solid;
+}
+.input-box select{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    padding: 0 10px;
+    border: none;
+    transition: 0.9s linear;
+    height: 65px;
+    width: 265px;
+    margin: 10px;
+}
+.input-box textarea{
+   height: 80px;
+    
+}
+textarea::placeholder{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    
+}
+textarea[type=text]{
+
+}
+.btn{
+background-color: #AB7442;
+padding: 19px 48px;
+margin:5px 0px 0px 10px;
+width:554px;
+text-align: center;
+
+}
+.btn a{
+    color: #fff;
+    font-size: 18px;
+    
+}
